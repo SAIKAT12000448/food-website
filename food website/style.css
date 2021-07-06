@@ -1,0 +1,86 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+.attach{
+    width: 50%;
+   
+}
+
+.sectionclass{
+    display: flex;
+    padding:5%;
+    
+    
+    
+}
+.banner1{
+    background: url(framuse.jpg);
+    background-repeat: no-repeat;
+    
+}
+.banner2{
+    background: url(frame2.png);
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.orange-color{
+    color:rgb(255, 166, 0);
+}
+#link{
+    background:linear-gradient(rgb(221, 91, 15),orange);
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    padding:10px;
+    border-radius: 15px;
+}
+#link:hover{
+    background-color:rgb(3, 121, 48);
+    color: black;
+}
+.attach img{
+    width:80%;
+}
+#resizeimg2{
+     width:40%;
+     padding: 5%;
+}
+div.recipies{
+    text-align: center;
+ 
+}
+#item{
+    position: relative;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px 5px;
+    height: 30%;
+    width: 30%;
+    margin: 2%;
+    padding: 2%;
+    top:-20px ;
+}
+.itemimage{
+    width: 100%;
+    border-radius:20px ;
+}
+/* .banner3{
+    background: url(woodbanner.jpg);
+    width: 100%;
+} */
+#hotel img{
+    /* height: 50%; */
+    width: 80%;
+    border-radius: 40%;
+ 
+}
+#foot{
+    text-align:center;
+    background: linear-gradient(30deg,black ,gray ,black ,rgb(6, 6, 44));
+    color:white;
+    padding: 5px;
+}
