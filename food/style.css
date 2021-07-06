@@ -19,9 +19,28 @@ body{
     background-repeat: no-repeat;
     
 }
+ ul{
+    background-color: sandybrown;
+    font-weight: 700;
+    overflow: hidden;
+}
+li{
+    float: left;
+    list-style: none;
+}
+
+li a{
+    color:white;
+    text-align: center;
+    padding: 20px;
+    display:block;
+    text-decoration: none;
+    /* position: sticky; */
+}
 .banner2{
     background: url(frame2.png);
     background-repeat: no-repeat;
+    margin:20px 0px 0px 0px;
 }
 
 h1{
@@ -30,6 +49,9 @@ h1{
 
 .orange-color{
     color:rgb(255, 166, 0);
+}
+.blue{
+    color:darkblue;
 }
 #link{
     background:linear-gradient(rgb(221, 91, 15),orange);
@@ -52,6 +74,10 @@ h1{
 }
 div.recipies{
     text-align: center;
+    background-color: rgb(224, 212, 212);
+    padding: 3%;
+    box-shadow: 0px 0px 10px 5px gray;
+    border-radius: 50%;
  
 }
 #item{
@@ -64,18 +90,25 @@ div.recipies{
     padding: 2%;
     top:-20px ;
 }
+#item h2{
+    background-color: darkgreen;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
 .itemimage{
     width: 100%;
     border-radius:20px ;
 }
-/* .banner3{
-    background: url(woodbanner.jpg);
-    width: 100%;
-} */
+.banner3{
+    background: linear-gradient(45deg,rgb(207, 204, 198),rgb(189, 189, 194),rgb(177, 171, 171),rgb(87, 83, 83));
+    border-radius: 10%;
+}
 #hotel img{
     /* height: 50%; */
     width: 80%;
     border-radius: 40%;
+    box-shadow: -5px  5px  10px  5px darkblue;
  
 }
 #foot{
